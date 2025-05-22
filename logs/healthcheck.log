@@ -1,0 +1,6 @@
+2025-05-22 18:09:13,069 - INFO - [OK] Google está online (https://www.google.com)
+2025-05-22 18:09:13,196 - INFO - [OK] GitHub está online (https://www.github.com)
+2025-05-22 18:09:13,207 - ERROR - [ERROR] Site Inexistente está offline - HTTPSConnectionPool(host='site12345678900000.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019F5ABA7E10>: Failed to resolve 'site12345678900000.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-22 18:11:33,661 - INFO - [OK] Google está online (https://www.google.com)
+2025-05-22 18:11:33,777 - INFO - [OK] GitHub está online (https://www.github.com)
+2025-05-22 18:11:33,789 - ERROR - [ERROR] Site Inexistente está offline - HTTPSConnectionPool(host='site12345678900000.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D773627ED0>: Failed to resolve 'site12345678900000.com' ([Errno 11001] getaddrinfo failed)"))

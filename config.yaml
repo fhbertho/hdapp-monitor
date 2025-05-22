@@ -1,0 +1,9 @@
+intervalo: 5  # intervalo em minutos entre as verificações
+
+servicos:
+  - nome: Google
+    url: https://www.google.com
+  - nome: GitHub
+    url: https://www.github.com
+  - nome: Site Inexistente
+    url: https://site12345678900000.com
