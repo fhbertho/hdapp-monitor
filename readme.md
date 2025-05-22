@@ -24,53 +24,48 @@ healthcheck/
 ├── requirements.txt # Bibliotecas necessárias
 ├── logs/
 │ └── healthcheck.log # Logs com status dos serviços
-└── README.md # Este arquivo
+└── README.md 
 
 
 ---
 
-## ⚙️ Como Funciona
+## 🚀 Como Usar
 
-1. O script lê uma lista de URLs ou IPs do `config.yaml`.
-2. Para cada serviço, ele faz um **request HTTP GET**.
-3. Se a resposta não for 200 ou houver timeout, um alerta é enviado via Telegram.
-4. Os resultados (sucesso/falha) são registrados com timestamp no arquivo de log.
-5. O processo roda automaticamente em intervalos definidos (ex: a cada 5 minutos).
-
----
-
-## ✅ Pré-requisitos
-
-- Python 3.8+
-- Conta no Telegram e um bot criado via [@BotFather](https://t.me/BotFather)
-- Biblioteca `requests`, `python-dotenv`, `PyYAML`, `schedule`
-
----
-
-## 🧪 Instalação
+1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/healthcheck-notifier.git
-cd healthcheck-notifier
-pip install -r requirements.txt
+git clone https://github.com/fhbertho/hdapp-monitor.git
+cd hdapp-monitor
+Crie e preencha o .env com seu bot e chat ID do Telegram:
 
-🔐 Configuração
-
-TELEGRAM_BOT_TOKEN=seu_token_aqui
+ini
+Copiar
+Editar
+TELEGRAM_BOT_TOKEN=seu_token
 TELEGRAM_CHAT_ID=seu_chat_id
+Edite o config.yaml com os serviços que quer monitorar:
 
-config.yaml
-
-intervalo: 5  # em minutos
+yaml
+Copiar
+Editar
+intervalo: 1  # minutos
 servicos:
   - nome: Google
     url: https://www.google.com
-  - nome: Meu site
-    url: https://meusite.com
+  - nome: GitHub
+    url: https://www.github.com
+Instale os pacotes necessários:
 
+bash
+Copiar
+Editar
+pip install -r requirements.txt
+Rode o script:
 
-▶️ Como Executar
-    python main.py
+bash
+Copiar
+Editar
+python main.py
 
 
 Melhorias Futuras
