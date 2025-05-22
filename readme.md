@@ -36,17 +36,17 @@ healthcheck/
 ```bash
 git clone https://github.com/fhbertho/hdapp-monitor.git
 cd hdapp-monitor
-
+```
 2. Crie e preencha o .env com seu bot e chat ID do Telegram:
-
+```bash
 ini
 Copiar
 Editar
 TELEGRAM_BOT_TOKEN=seu_token
 TELEGRAM_CHAT_ID=seu_chat_id
-
+```
 3. Edite o config.yaml com os serviços que quer monitorar:
-
+```bash
 yaml
 Copiar
 Editar
@@ -56,21 +56,21 @@ servicos:
     url: https://www.google.com
   - nome: GitHub
     url: https://www.github.com
-
+```
 4. Instale os pacotes necessários:
-
+```bash
 bash
 Copiar
 Editar
 pip install -r requirements.txt
-
+```
 5. Rode o script:
-
+```bash
 bash
 Copiar
 Editar
 python main.py
-
+```
 
 Melhorias Futuras
 Suporte a outros métodos (ping, TCP, etc.)
