@@ -7,3 +7,7 @@ servicos:
     url: https://www.github.com
   - nome: Site Inexistente
     url: https://site12345678900000.com
+  - nome: Linkedin
+    url: https://linkedin.com.br
+  - nome: OpenAI
+    url: https://openai.com

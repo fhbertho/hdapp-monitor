@@ -65,7 +65,7 @@ def main():
             url = servico.get("url")
             if nome and url:
                 verificar_servico(nome, url)
-        time.sleep(intervalo * 5)
+        time.sleep(intervalo * 30)
 
 enviar_alerta("🚨 Teste de alerta Telegram funcionando!")
 

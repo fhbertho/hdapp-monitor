@@ -80,4 +80,4 @@ Interface web para status em tempo real
 
 Notificações por Slack ou Discord
 
-Desenvolvido por @fhbertho.
+Desenvolvido por @fhbertho em Colab @JM-Spinelli
