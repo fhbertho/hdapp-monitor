@@ -73,9 +73,9 @@ python main.py
 ```
 
 Melhorias Futuras
-Suporte a outros métodos (ping, TCP, etc.)
+Suporte a outros métodos (ping, TCP, etc.) - Starting - introduzinho nmap, aumentando os detalhes para execução das inspeções nas URLS. Podendo ser apenas healthcheck ou uma consulta mais aprofundada na URL.
 
-Interface web para status em tempo real
+Interface web para status em tempo real - Será iniciado após a finalização do item acima.
 
 Notificações por Slack ou Discord
 
